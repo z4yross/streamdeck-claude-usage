@@ -36,7 +36,7 @@ rate limit for the live ones.
 ## Requirements
 
 - Windows 10 or later
-- Stream Deck software 6.5 or later, and a Stream Deck+ (the action is dial-only)
+- Stream Deck software 6.9 or later, and a Stream Deck+ (the action is dial-only)
 - Claude Code installed and logged in (`claude` on PATH is used to read its version)
 
 ## Install

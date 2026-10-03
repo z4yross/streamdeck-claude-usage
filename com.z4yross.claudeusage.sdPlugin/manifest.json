@@ -1,6 +1,6 @@
 {
 	"Name": "Claude Usage",
-	"Version": "0.1.0.0",
+	"Version": "0.2.0.0",
 	"Author": "z4yross",
 	"Actions": [
 		{
@@ -35,9 +35,9 @@
 	"CodePath": "bin/plugin.js",
 	"Description": "Shows Claude Code rate-limit usage (5h and 7d windows) for one or more accounts on a Stream Deck+ dial.",
 	"Icon": "imgs/plugin/marketplace",
-	"SDKVersion": 2,
+	"SDKVersion": 3,
 	"Software": {
-		"MinimumVersion": "6.5"
+		"MinimumVersion": "6.9"
 	},
 	"OS": [
 		{
