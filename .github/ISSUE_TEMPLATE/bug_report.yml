@@ -1,0 +1,61 @@
+name: Bug report
+description: Something does not work as described in the README.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did on the dial, what you expected, and what the dial showed instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Rotate the dial ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: accounts
+    attributes:
+      label: Accounts setting
+      description: The value of the Accounts field, with labels only if you prefer. Never paste tokens.
+      placeholder: Personal=~/.claude,Work=~/.claude-work
+  - type: input
+    id: claude
+    attributes:
+      label: Claude Code version
+      description: Output of `claude --version`.
+      placeholder: 2.1.x
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin version
+      description: Shown in Stream Deck under the plugin's entry, or `Version` in the manifest.
+      placeholder: 0.2.0.0
+    validations:
+      required: true
+  - type: input
+    id: streamdeck
+    attributes:
+      label: Stream Deck software version
+      placeholder: 7.0.3
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 23H2
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant lines from `com.z4yross.claudeusage.sdPlugin/logs/`. Remove anything you consider private first.
+      render: text
