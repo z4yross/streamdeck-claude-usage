@@ -68,6 +68,11 @@ npx streamdeck link com.z4yross.claudeusage.sdPlugin   # symlink into Stream Dec
 npx streamdeck pack com.z4yross.claudeusage.sdPlugin   # produce the .streamDeckPlugin
 ```
 
+## Contributing
+
+Bug reports and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for
+setup, project layout, debugging and the release flow.
+
 ## License
 
 MIT
