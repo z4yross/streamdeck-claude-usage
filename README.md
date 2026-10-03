@@ -3,7 +3,13 @@
 A Stream Deck+ dial that shows your Claude Code plan usage: the 5-hour window and the
 7-day window, with a progress bar each, for one or more Claude accounts.
 
-<img src="com.z4yross.claudeusage.sdPlugin/imgs/plugin/marketplace@2x.png" width="96" alt="plugin icon">
+<p>
+  <img src="docs/dial-usage.png" width="300" alt="Dial showing 5h and 7d usage with reset countdowns">
+  <img src="docs/dial-prediction.png" width="300" alt="Dial showing the prediction view">
+</p>
+
+Left: live numbers with the time left until each window resets. Right: the prediction
+view after a tap (renders of the touch-strip layout, not photos).
 
 ## What it does
 
