@@ -1,0 +1,54 @@
+{
+	"Name": "Claude Usage",
+	"Version": "0.1.0.0",
+	"Author": "z4yross",
+	"Actions": [
+		{
+			"Name": "Claude usage",
+			"UUID": "com.z4yross.claudeusage.dial",
+			"Icon": "imgs/actions/dial/icon",
+			"Tooltip": "Claude Code plan usage (5h / 7d). Rotate = switch account, tap/press = prediction, hold = open usage page.",
+			"PropertyInspectorPath": "ui/dial-config.html",
+			"Controllers": [
+				"Encoder"
+			],
+			"Encoder": {
+				"layout": "layouts/usage.json",
+				"Icon": "imgs/actions/dial/icon",
+				"StackColor": "#D97757",
+				"TriggerDescription": {
+					"Rotate": "Switch account",
+					"Push": "Prediction / hold: open usage page",
+					"Touch": "Prediction"
+				}
+			},
+			"States": [
+				{
+					"Image": "imgs/actions/dial/key",
+					"ShowTitle": false
+				}
+			]
+		}
+	],
+	"Category": "Claude Usage",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Shows Claude Code rate-limit usage (5h and 7d windows) for one or more accounts on a Stream Deck+ dial.",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "--inspect=127.0.0.1:12348"
+	},
+	"UUID": "com.z4yross.claudeusage",
+	"URL": "https://github.com/z4yross/streamdeck-claude-usage"
+}
