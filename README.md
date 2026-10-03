@@ -3,7 +3,7 @@
 A Stream Deck+ dial that shows your Claude Code plan usage: the 5-hour window and the
 7-day window, with a progress bar each, for one or more Claude accounts.
 
-![dial layout](com.z4yross.claudeusage.sdPlugin/imgs/plugin/marketplace.png)
+<img src="com.z4yross.claudeusage.sdPlugin/imgs/plugin/marketplace@2x.png" width="96" alt="plugin icon">
 
 ## What it does
 
